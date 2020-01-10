@@ -38,7 +38,7 @@
 	<!-- Compile Java source from ${src.dir} and output it to ${web.classes.dir} -->
 	<target name="compile" description="compile source code">
 		<mkdir dir="${web.classes.dir}" />
-		<javac destdir="${web.classes.dir}" source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false" classpathref="compile.path">
+		<javac destdir="${web.classes.dir}" source="${jdk.version}" target="${jdk.version}" debug="true" includeantruntime="false">
 			<src path="${src.dir}" />
 		</javac>
 	</target>
