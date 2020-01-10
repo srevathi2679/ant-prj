@@ -17,8 +17,8 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
+    publishJUnitResults: false
+    #testResultsFiles: '**/TEST-*.xml'
     checkStyleRunAnalysis: true # Optional
     pmdRunAnalysis: true # Optional
     findBugsRunAnalysis: true # Optional
